@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual env
+.venv/
+venv/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints
+
+# PyTorch
+*.pt
+*.pth
+models/
+
+# Hugging Face cache
+~/.cache/huggingface
+.cache/
+
+# Data
+data/
+results/
+
+# Logs
+wandb/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Others
+.env
+*.env
+
+# Keep README, config and source
+!README.md
+!config/
+!src/
+!scripts/
+!requirements.txt
