@@ -1,0 +1,33 @@
+{
+  "model_config": {
+    "vocab_size": 30000,
+    "d_model": 128,
+    "n_layers": 4,
+    "n_heads": 8,
+    "d_ff": 512,
+    "max_seq_len": 512,
+    "dropout": 0.1,
+    "n_reasoning_layers": 1
+  },
+  "training_config": {
+    "num_epochs": 3,
+    "batch_size": 2,
+    "learning_rate": 5e-4,
+    "weight_decay": 0.01,
+    "max_grad_norm": 1.0,
+    "warmup_steps": 10,
+    "save_steps": 50,
+    "eval_steps": 10,
+    "logging_steps": 5,
+    "use_wandb": false,
+    "output_dir": "models/",
+    "train_file": "data/train.json",
+    "validation_file": "data/val.json",
+    "test_file": "data/test.json"
+  },
+  "data_config": {
+    "max_length": 512,
+    "mlm_probability": 0.15,
+    "preprocessing_num_workers": 4
+  }
+}

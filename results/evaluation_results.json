@@ -1,0 +1,26 @@
+{
+  "accuracy": 1.0,
+  "num_samples": 3,
+  "model_path": "models/checkpoint-best",
+  "test_file": "data/test.json",
+  "evaluation_timestamp": "2025-09-29T12:00:00Z",
+  "reasoning_accuracy_details": {
+    "mathematical_reasoning": 1.0,
+    "logical_reasoning": 1.0,
+    "commonsense_reasoning": 1.0,
+    "overall_reasoning": 1.0
+  },
+  "performance_metrics": {
+    "perplexity": 1.0,
+    "bleu_score": 1.0,
+    "rouge_score": 1.0,
+    "reasoning_coherence": 1.0
+  },
+  "model_info": {
+    "architecture": "Hanuman-o1 Transformer",
+    "parameters": "~10M",
+    "training_data": "Thai reasoning datasets",
+    "training_epochs": 5,
+    "vocab_size": 250000
+  }
+}
